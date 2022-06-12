@@ -18,4 +18,3 @@ def counter(request):
         except Cart.DoesNotExist:
             cart_count = 0
     return dict(cart_count=cart_count)
-        
